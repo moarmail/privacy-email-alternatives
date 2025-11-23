@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy-Friendly Alternatives to Gmail</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <h1>Privacy-Friendly Alternatives to Gmail</h1>
+      <p class="tagline">Find, compare, and migrate to email providers that respect your privacy.</p>
+    </div>
+  </header>
+
+  <main class="inner content">
+    <section id="why-switch">
+      <h2>Why consider alternatives?</h2>
+      <p>Many users switch from Gmail to improve privacy, reduce ad-targeting and data collection, or to regain control over their email. Alternatives focus on stronger privacy policies, fewer data-mining practices, and encryption options.</p>
+    </section>
+
+    <section id="what-to-look-for">
+      <h2>What to look for in a privacy-focused email provider</h2>
+      <ul>
+        <li><strong>Data minimization:</strong> Minimal logging and no data profiling for ads.</li>
+        <li><strong>Jurisdiction:</strong> Where the company is legally based affects request handling and law enforcement access.</li>
+        <li><strong>Encryption:</strong> End-to-end encryption or strong server-side encryption.</li>
+        <li><strong>Open source / transparency:</strong> Audits, public code, clear privacy policy and transparency reports.</li>
+        <li><strong>Paid vs free:</strong> Paid services often offer stronger privacy guarantees (no ad-based revenue).</li>
+        <li><strong>Features:</strong> IMAP/POP support, aliases, catch-all, custom domains, mobile and desktop client compatibility.</li>
+      </ul>
+    </section>
+
+    <section id="recommended-providers">
+      <h2>Recommended providers (shortlist)</h2>
+      <ul>
+        <li><strong>Proton Mail</strong> — Strong privacy focus, Austria-based, end-to-end encryption between Proton users, paid plans for custom domains.</li>
+        <li><strong>Fastmail</strong> — Feature-rich, paid service with good privacy practices, strong IMAP support and migrations.</li>
+        <li><strong>Mailfence</strong> — Belgium-based, includes OpenPGP and calendar features, privacy-forward approach.</li>
+        <li><strong>Posteo</strong> — German provider with strong privacy stance, sustainable/green practices, paid and anonymous signup options.</li>
+        <li><strong>Tutanota</strong> — End-to-end encrypted email with zero-access encryption for mailbox content, Germany-based, offers free & paid tiers.</li>
+        <li><strong>Migadu</strong> — Small provider focused on custom domains and simple pricing; good for light self-hosting alternatives.</li>
+        <li><strong>StartMail</strong> — Built by the StartPage team, private email with paid plans and PGP support.</li>
+        <li><strong>Self-hosting</strong> — Mail-in-a-Box, Modoboa, or using a VPS with proper mail stack; high control but requires maintenance and security effort.</li>
+      </ul>
+      <p>Pick a provider based on the trade-offs you’re comfortable with (cost, convenience, control).</p>
+    </section>
+
+    <section id="migration-steps">
+      <h2>Migration checklist</h2>
+      <ol>
+        <li><strong>Inventory:</strong> Make a list of important email, contacts, and services tied to your Gmail address.</li>
+        <li><strong>Export:</strong> Export emails (e.g., via IMAP or a provider export tool) and contacts (vCard/CSV) from Gmail.</li>
+        <li><strong>Import:</strong> Import contacts and mail to your new provider (many providers offer import tools or IMAP access).</li>
+        <li><strong>Update accounts:</strong> Update email for important services, banking, social accounts, etc. Use a rolling approach to avoid breaking access.</li>
+        <li><strong>Forwarding & auto-responder:</strong> Keep forwarding from Gmail for a transition period and set an auto-reply (briefly) with new contact info if desired.</li>
+        <li><strong>Update DNS (if using custom domain):</strong> Add SPF, DKIM, and DMARC records for deliverability and security.</li>
+        <li><strong>Test:</strong> Check sending and receiving from multiple providers to ensure deliverability.</li>
+      </ol>
+    </section>
+
+    <section id="hardening">
+      <h2>Hardening your email privacy</h2>
+      <ul>
+        <li><strong>Use client-side encryption:</strong> OpenPGP (PGP/GnuPG) for end-to-end encryption of sensitive messages.</li>
+        <li><strong>Use aliases and disposable addresses:</strong> Reduce tracking and spam exposure by using unique addresses for different services.</li>
+        <li><strong>Prefer paid providers:</strong> They’re less likely to monetize your data through advertising.</li>
+        <li><strong>Use a secure mail client:</strong> Desktop/mobile clients that support selective PGP (e.g., Thunderbird with Enigmail / built-in OpenPGP, K-9 Mail, FairEmail).</li>
+        <li><strong>Turn on two-factor authentication:</strong> Where available, use strong 2FA (authenticator apps or hardware keys).</li>
+      </ul>
+    </section>
+
+    <section id="self-hosting">
+      <h2>Self-hosting options and trade-offs</h2>
+      <p>Self-hosting provides maximum control over your data, but requires ongoing maintenance: security patches, backups, handling deliverability (SPF/DKIM/DMARC/Reverse DNS), spam filtering, and uptime. Tools such as Mail-in-a-Box, Modoboa, and Dockerized stacks can simplify setup, but they still need attention.</p>
+    </section>
+
+    <section id="privacy-tips">
+      <h2>Practical privacy tips</h2>
+      <ul>
+        <li>Sign up with a provider before migrating critical services so you can update recovery addresses and 2FA methods.</li>
+        <li>Use a separate address for signups and newsletters.</li>
+        <li>Regularly clean unused accounts and remove permissions you no longer use.</li>
+        <li>Consider a custom domain to future-proof your address regardless of provider changes.</li>
+      </ul>
+    </section>
+
+    <section id="resources">
+      <h2>Further reading and resources</h2>
+      <p>Search for provider documentation about exports, imports, and DNS setup. Look for independent privacy reviews and up-to-date comparisons to choose the best fit for you.</p>
+    </section>
+
+    <footer class="site-footer">
+      <p>Made for moarmail — <small>Use this site as a starting point; update provider notes and links as you test them.</small></p>
+    </footer>
+  </main>
+</body>
+</html>
