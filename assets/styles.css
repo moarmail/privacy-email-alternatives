@@ -1,0 +1,33 @@
+/* Simple, readable styling */
+:root{
+  --bg:#fafafa;
+  --card:#ffffff;
+  --accent:#0b5cff;
+  --muted:#666;
+  --maxw:900px;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);
+  color:#111;
+  line-height:1.6;
+}
+.inner{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:1.25rem;
+}
+.site-header{
+  background:linear-gradient(90deg,#0b5cff22,#0b5cff08);
+  border-bottom:1px solid #eee;
+  padding:1.5rem 0;
+}
+.site-header h1{margin:0 0 .25rem}
+.tagline{margin:0;color:var(--muted)}
+
+.content h2{margin-top:1.1rem}
+.content ul, .content ol{margin-left:1.1rem}
+.site-footer{margin-top:2rem;padding-top:1rem;border-top:1px solid #eee;color:var(--muted)}
